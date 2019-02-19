@@ -20,7 +20,7 @@
       <x>10</x>
       <y>30</y>
       <width>721</width>
-      <height>321</height>
+      <height>324</height>
      </rect>
     </property>
     <layout class="QGridLayout" name="gridLayout">
@@ -37,13 +37,20 @@
        </property>
        <item row="0" column="0">
         <widget class="QLabel" name="label_29">
+         <property name="inputMethodHints">
+          <set>Qt::ImhNone</set>
+         </property>
          <property name="text">
           <string>TextLabel</string>
          </property>
         </widget>
        </item>
        <item row="0" column="1">
-        <widget class="QLineEdit" name="lineEdit_29"/>
+        <widget class="QLineEdit" name="lineEdit_29">
+         <property name="inputMethodHints">
+          <set>Qt::ImhDigitsOnly</set>
+         </property>
+        </widget>
        </item>
        <item row="1" column="0">
         <widget class="QLabel" name="label_30">
@@ -53,7 +60,11 @@
         </widget>
        </item>
        <item row="1" column="1">
-        <widget class="QLineEdit" name="lineEdit_30"/>
+        <widget class="QLineEdit" name="lineEdit_30">
+         <property name="inputMethodHints">
+          <set>Qt::ImhDigitsOnly</set>
+         </property>
+        </widget>
        </item>
        <item row="2" column="0">
         <widget class="QLabel" name="label_31">
@@ -63,7 +74,11 @@
         </widget>
        </item>
        <item row="2" column="1">
-        <widget class="QLineEdit" name="lineEdit_31"/>
+        <widget class="QLineEdit" name="lineEdit_31">
+         <property name="inputMethodHints">
+          <set>Qt::ImhDigitsOnly</set>
+         </property>
+        </widget>
        </item>
        <item row="3" column="0">
         <widget class="QLabel" name="label_32">
@@ -73,7 +88,11 @@
         </widget>
        </item>
        <item row="3" column="1">
-        <widget class="QLineEdit" name="lineEdit_32"/>
+        <widget class="QLineEdit" name="lineEdit_32">
+         <property name="inputMethodHints">
+          <set>Qt::ImhDigitsOnly</set>
+         </property>
+        </widget>
        </item>
        <item row="4" column="0">
         <widget class="QLabel" name="label_33">
@@ -83,7 +102,11 @@
         </widget>
        </item>
        <item row="4" column="1">
-        <widget class="QLineEdit" name="lineEdit_33"/>
+        <widget class="QLineEdit" name="lineEdit_33">
+         <property name="inputMethodHints">
+          <set>Qt::ImhDigitsOnly</set>
+         </property>
+        </widget>
        </item>
        <item row="5" column="0">
         <widget class="QLabel" name="label_34">
@@ -93,7 +116,11 @@
         </widget>
        </item>
        <item row="5" column="1">
-        <widget class="QLineEdit" name="lineEdit_34"/>
+        <widget class="QLineEdit" name="lineEdit_34">
+         <property name="inputMethodHints">
+          <set>Qt::ImhDigitsOnly</set>
+         </property>
+        </widget>
        </item>
        <item row="6" column="0">
         <widget class="QLabel" name="label_35">
@@ -103,7 +130,11 @@
         </widget>
        </item>
        <item row="6" column="1">
-        <widget class="QLineEdit" name="lineEdit_35"/>
+        <widget class="QLineEdit" name="lineEdit_35">
+         <property name="inputMethodHints">
+          <set>Qt::ImhDigitsOnly</set>
+         </property>
+        </widget>
        </item>
       </layout>
      </item>
@@ -126,7 +157,11 @@
         </widget>
        </item>
        <item row="0" column="1">
-        <widget class="QLineEdit" name="lineEdit_71"/>
+        <widget class="QLineEdit" name="lineEdit_71">
+         <property name="inputMethodHints">
+          <set>Qt::ImhDigitsOnly</set>
+         </property>
+        </widget>
        </item>
        <item row="1" column="0">
         <widget class="QLabel" name="label_72">
@@ -136,7 +171,11 @@
         </widget>
        </item>
        <item row="1" column="1">
-        <widget class="QLineEdit" name="lineEdit_72"/>
+        <widget class="QLineEdit" name="lineEdit_72">
+         <property name="inputMethodHints">
+          <set>Qt::ImhDigitsOnly</set>
+         </property>
+        </widget>
        </item>
        <item row="2" column="0">
         <widget class="QLabel" name="label_73">
@@ -146,7 +185,11 @@
         </widget>
        </item>
        <item row="2" column="1">
-        <widget class="QLineEdit" name="lineEdit_73"/>
+        <widget class="QLineEdit" name="lineEdit_73">
+         <property name="inputMethodHints">
+          <set>Qt::ImhDigitsOnly</set>
+         </property>
+        </widget>
        </item>
        <item row="3" column="0">
         <widget class="QLabel" name="label_74">
@@ -156,7 +199,11 @@
         </widget>
        </item>
        <item row="3" column="1">
-        <widget class="QLineEdit" name="lineEdit_74"/>
+        <widget class="QLineEdit" name="lineEdit_74">
+         <property name="inputMethodHints">
+          <set>Qt::ImhDigitsOnly</set>
+         </property>
+        </widget>
        </item>
        <item row="4" column="0">
         <widget class="QLabel" name="label_75">
@@ -180,13 +227,25 @@
         </widget>
        </item>
        <item row="4" column="1">
-        <widget class="QLineEdit" name="lineEdit_75"/>
+        <widget class="QLineEdit" name="lineEdit_75">
+         <property name="inputMethodHints">
+          <set>Qt::ImhDigitsOnly</set>
+         </property>
+        </widget>
        </item>
        <item row="5" column="1">
-        <widget class="QLineEdit" name="lineEdit_76"/>
+        <widget class="QLineEdit" name="lineEdit_76">
+         <property name="inputMethodHints">
+          <set>Qt::ImhDigitsOnly</set>
+         </property>
+        </widget>
        </item>
        <item row="6" column="1">
-        <widget class="QLineEdit" name="lineEdit_77"/>
+        <widget class="QLineEdit" name="lineEdit_77">
+         <property name="inputMethodHints">
+          <set>Qt::ImhDigitsOnly</set>
+         </property>
+        </widget>
        </item>
       </layout>
      </item>
@@ -209,7 +268,11 @@
         </widget>
        </item>
        <item row="0" column="1">
-        <widget class="QLineEdit" name="lineEdit_85"/>
+        <widget class="QLineEdit" name="lineEdit_85">
+         <property name="inputMethodHints">
+          <set>Qt::ImhDigitsOnly</set>
+         </property>
+        </widget>
        </item>
        <item row="1" column="0">
         <widget class="QLabel" name="label_86">
@@ -219,7 +282,11 @@
         </widget>
        </item>
        <item row="1" column="1">
-        <widget class="QLineEdit" name="lineEdit_86"/>
+        <widget class="QLineEdit" name="lineEdit_86">
+         <property name="inputMethodHints">
+          <set>Qt::ImhDigitsOnly</set>
+         </property>
+        </widget>
        </item>
        <item row="2" column="0">
         <widget class="QLabel" name="label_87">
@@ -229,7 +296,11 @@
         </widget>
        </item>
        <item row="2" column="1">
-        <widget class="QLineEdit" name="lineEdit_87"/>
+        <widget class="QLineEdit" name="lineEdit_87">
+         <property name="inputMethodHints">
+          <set>Qt::ImhDigitsOnly</set>
+         </property>
+        </widget>
        </item>
        <item row="3" column="0">
         <widget class="QLabel" name="label_88">
@@ -239,7 +310,11 @@
         </widget>
        </item>
        <item row="3" column="1">
-        <widget class="QLineEdit" name="lineEdit_88"/>
+        <widget class="QLineEdit" name="lineEdit_88">
+         <property name="inputMethodHints">
+          <set>Qt::ImhDigitsOnly</set>
+         </property>
+        </widget>
        </item>
        <item row="4" column="0">
         <widget class="QLabel" name="label_89">
@@ -263,13 +338,25 @@
         </widget>
        </item>
        <item row="4" column="1">
-        <widget class="QLineEdit" name="lineEdit_89"/>
+        <widget class="QLineEdit" name="lineEdit_89">
+         <property name="inputMethodHints">
+          <set>Qt::ImhDigitsOnly</set>
+         </property>
+        </widget>
        </item>
        <item row="5" column="1">
-        <widget class="QLineEdit" name="lineEdit_90"/>
+        <widget class="QLineEdit" name="lineEdit_90">
+         <property name="inputMethodHints">
+          <set>Qt::ImhDigitsOnly</set>
+         </property>
+        </widget>
        </item>
        <item row="6" column="1">
-        <widget class="QLineEdit" name="lineEdit_91"/>
+        <widget class="QLineEdit" name="lineEdit_91">
+         <property name="inputMethodHints">
+          <set>Qt::ImhDigitsOnly</set>
+         </property>
+        </widget>
        </item>
       </layout>
      </item>
@@ -292,7 +379,11 @@
         </widget>
        </item>
        <item row="0" column="1">
-        <widget class="QLineEdit" name="lineEdit_78"/>
+        <widget class="QLineEdit" name="lineEdit_78">
+         <property name="inputMethodHints">
+          <set>Qt::ImhDigitsOnly</set>
+         </property>
+        </widget>
        </item>
        <item row="1" column="0">
         <widget class="QLabel" name="label_79">
@@ -302,7 +393,11 @@
         </widget>
        </item>
        <item row="1" column="1">
-        <widget class="QLineEdit" name="lineEdit_79"/>
+        <widget class="QLineEdit" name="lineEdit_79">
+         <property name="inputMethodHints">
+          <set>Qt::ImhDigitsOnly</set>
+         </property>
+        </widget>
        </item>
        <item row="2" column="0">
         <widget class="QLabel" name="label_80">
@@ -312,7 +407,11 @@
         </widget>
        </item>
        <item row="2" column="1">
-        <widget class="QLineEdit" name="lineEdit_80"/>
+        <widget class="QLineEdit" name="lineEdit_80">
+         <property name="inputMethodHints">
+          <set>Qt::ImhDigitsOnly</set>
+         </property>
+        </widget>
        </item>
        <item row="3" column="0">
         <widget class="QLabel" name="label_81">
@@ -322,7 +421,11 @@
         </widget>
        </item>
        <item row="3" column="1">
-        <widget class="QLineEdit" name="lineEdit_81"/>
+        <widget class="QLineEdit" name="lineEdit_81">
+         <property name="inputMethodHints">
+          <set>Qt::ImhDigitsOnly</set>
+         </property>
+        </widget>
        </item>
        <item row="4" column="0">
         <widget class="QLabel" name="label_82">
@@ -346,13 +449,25 @@
         </widget>
        </item>
        <item row="4" column="1">
-        <widget class="QLineEdit" name="lineEdit_82"/>
+        <widget class="QLineEdit" name="lineEdit_82">
+         <property name="inputMethodHints">
+          <set>Qt::ImhDigitsOnly</set>
+         </property>
+        </widget>
        </item>
        <item row="5" column="1">
-        <widget class="QLineEdit" name="lineEdit_83"/>
+        <widget class="QLineEdit" name="lineEdit_83">
+         <property name="inputMethodHints">
+          <set>Qt::ImhDigitsOnly</set>
+         </property>
+        </widget>
        </item>
        <item row="6" column="1">
-        <widget class="QLineEdit" name="lineEdit_84"/>
+        <widget class="QLineEdit" name="lineEdit_84">
+         <property name="inputMethodHints">
+          <set>Qt::ImhDigitsOnly</set>
+         </property>
+        </widget>
        </item>
       </layout>
      </item>
@@ -375,7 +490,11 @@
         </widget>
        </item>
        <item row="0" column="1">
-        <widget class="QLineEdit" name="lineEdit_92"/>
+        <widget class="QLineEdit" name="lineEdit_92">
+         <property name="inputMethodHints">
+          <set>Qt::ImhDigitsOnly</set>
+         </property>
+        </widget>
        </item>
        <item row="1" column="0">
         <widget class="QLabel" name="label_93">
@@ -385,7 +504,11 @@
         </widget>
        </item>
        <item row="1" column="1">
-        <widget class="QLineEdit" name="lineEdit_93"/>
+        <widget class="QLineEdit" name="lineEdit_93">
+         <property name="inputMethodHints">
+          <set>Qt::ImhDigitsOnly</set>
+         </property>
+        </widget>
        </item>
        <item row="2" column="0">
         <widget class="QLabel" name="label_94">
@@ -395,7 +518,11 @@
         </widget>
        </item>
        <item row="2" column="1">
-        <widget class="QLineEdit" name="lineEdit_94"/>
+        <widget class="QLineEdit" name="lineEdit_94">
+         <property name="inputMethodHints">
+          <set>Qt::ImhDigitsOnly</set>
+         </property>
+        </widget>
        </item>
        <item row="3" column="0">
         <widget class="QLabel" name="label_95">
@@ -405,7 +532,11 @@
         </widget>
        </item>
        <item row="3" column="1">
-        <widget class="QLineEdit" name="lineEdit_95"/>
+        <widget class="QLineEdit" name="lineEdit_95">
+         <property name="inputMethodHints">
+          <set>Qt::ImhDigitsOnly</set>
+         </property>
+        </widget>
        </item>
        <item row="4" column="0">
         <widget class="QLabel" name="label_96">
@@ -429,13 +560,25 @@
         </widget>
        </item>
        <item row="4" column="1">
-        <widget class="QLineEdit" name="lineEdit_96"/>
+        <widget class="QLineEdit" name="lineEdit_96">
+         <property name="inputMethodHints">
+          <set>Qt::ImhDigitsOnly</set>
+         </property>
+        </widget>
        </item>
        <item row="5" column="1">
-        <widget class="QLineEdit" name="lineEdit_97"/>
+        <widget class="QLineEdit" name="lineEdit_97">
+         <property name="inputMethodHints">
+          <set>Qt::ImhDigitsOnly</set>
+         </property>
+        </widget>
        </item>
        <item row="6" column="1">
-        <widget class="QLineEdit" name="lineEdit_98"/>
+        <widget class="QLineEdit" name="lineEdit_98">
+         <property name="inputMethodHints">
+          <set>Qt::ImhDigitsOnly</set>
+         </property>
+        </widget>
        </item>
       </layout>
      </item>
