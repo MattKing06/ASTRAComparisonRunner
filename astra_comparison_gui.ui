@@ -47,6 +47,9 @@
          <property name="inputMethodHints">
           <set>Qt::ImhDigitsOnly</set>
          </property>
+         <property name="placeholderText">
+          <string>21</string>
+         </property>
         </widget>
        </item>
        <item row="1" column="0">
@@ -60,6 +63,9 @@
         <widget class="QLineEdit" name="linac1_phase_line_edit">
          <property name="inputMethodHints">
           <set>Qt::ImhDigitsOnly</set>
+         </property>
+         <property name="placeholderText">
+          <string>-16</string>
          </property>
         </widget>
        </item>
@@ -75,6 +81,9 @@
          <property name="inputMethodHints">
           <set>Qt::ImhDigitsOnly</set>
          </property>
+         <property name="placeholderText">
+          <string>0.345</string>
+         </property>
         </widget>
        </item>
        <item row="3" column="0">
@@ -88,6 +97,9 @@
         <widget class="QLineEdit" name="linac1_sol1_strength_line_edit">
          <property name="inputMethodHints">
           <set>Qt::ImhDigitsOnly</set>
+         </property>
+         <property name="placeholderText">
+          <string>0.05</string>
          </property>
         </widget>
        </item>
@@ -103,6 +115,9 @@
          <property name="inputMethodHints">
           <set>Qt::ImhDigitsOnly</set>
          </property>
+         <property name="placeholderText">
+          <string>-0.05</string>
+         </property>
         </widget>
        </item>
        <item row="5" column="0">
@@ -117,12 +132,18 @@
          <property name="inputMethodHints">
           <set>Qt::ImhDigitsOnly</set>
          </property>
+         <property name="placeholderText">
+          <string>337</string>
+         </property>
         </widget>
        </item>
        <item row="6" column="1">
         <widget class="QCheckBox" name="injector_space_charge_check_box">
          <property name="text">
           <string/>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
          </property>
         </widget>
        </item>
@@ -144,6 +165,9 @@
         <widget class="QCheckBox" name="rest_of_line_space_charge_check_box">
          <property name="text">
           <string/>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
          </property>
         </widget>
        </item>
@@ -175,6 +199,9 @@
          <property name="inputMethodHints">
           <set>Qt::ImhDigitsOnly</set>
          </property>
+         <property name="placeholderText">
+          <string>001</string>
+         </property>
         </widget>
        </item>
        <item row="1" column="0">
@@ -188,6 +215,9 @@
         <widget class="QLineEdit" name="macro_particle_line_edit">
          <property name="inputMethodHints">
           <set>Qt::ImhDigitsOnly</set>
+         </property>
+         <property name="placeholderText">
+          <string>1000</string>
          </property>
         </widget>
        </item>
@@ -203,6 +233,9 @@
          <property name="inputMethodHints">
           <set>Qt::ImhDigitsOnly</set>
          </property>
+         <property name="placeholderText">
+          <string>3</string>
+         </property>
         </widget>
        </item>
        <item row="3" column="0">
@@ -216,6 +249,9 @@
         <widget class="QLineEdit" name="spot_size_line_edit">
          <property name="inputMethodHints">
           <set>Qt::ImhDigitsOnly</set>
+         </property>
+         <property name="placeholderText">
+          <string>0.25</string>
          </property>
         </widget>
        </item>
@@ -231,6 +267,9 @@
          <property name="inputMethodHints">
           <set>Qt::ImhDigitsOnly</set>
          </property>
+         <property name="placeholderText">
+          <string>0.25</string>
+         </property>
         </widget>
        </item>
        <item row="5" column="0">
@@ -245,6 +284,9 @@
          <property name="inputMethodHints">
           <set>Qt::ImhDigitsOnly</set>
          </property>
+         <property name="placeholderText">
+          <string>71.5</string>
+         </property>
         </widget>
        </item>
        <item row="6" column="0">
@@ -258,6 +300,9 @@
         <widget class="QLineEdit" name="gun_phase_line_edit">
          <property name="inputMethodHints">
           <set>Qt::ImhDigitsOnly</set>
+         </property>
+         <property name="placeholderText">
+          <string>-9</string>
          </property>
         </widget>
        </item>
@@ -285,7 +330,11 @@
         </widget>
        </item>
        <item row="0" column="1">
-        <widget class="QLineEdit" name="ba1_quad1_strength_line_edit"/>
+        <widget class="QLineEdit" name="ba1_quad1_strength_line_edit">
+         <property name="placeholderText">
+          <string>-3.8</string>
+         </property>
+        </widget>
        </item>
        <item row="1" column="0">
         <widget class="QLabel" name="ba1_quad2_strength_label">
@@ -295,7 +344,11 @@
         </widget>
        </item>
        <item row="1" column="1">
-        <widget class="QLineEdit" name="ba1_quad2_strength_line_edit"/>
+        <widget class="QLineEdit" name="ba1_quad2_strength_line_edit">
+         <property name="placeholderText">
+          <string>9.9</string>
+         </property>
+        </widget>
        </item>
        <item row="2" column="0">
         <widget class="QLabel" name="ba1_quad3_strength_label">
@@ -305,7 +358,11 @@
         </widget>
        </item>
        <item row="2" column="1">
-        <widget class="QLineEdit" name="ba1_quad3_strength_line_edit"/>
+        <widget class="QLineEdit" name="ba1_quad3_strength_line_edit">
+         <property name="placeholderText">
+          <string>-11.5</string>
+         </property>
+        </widget>
        </item>
        <item row="3" column="0">
         <widget class="QLabel" name="ba1_quad4_strength_label">
@@ -315,7 +372,11 @@
         </widget>
        </item>
        <item row="3" column="1">
-        <widget class="QLineEdit" name="ba1_quad4_strength_line_edit"/>
+        <widget class="QLineEdit" name="ba1_quad4_strength_line_edit">
+         <property name="placeholderText">
+          <string>5.0</string>
+         </property>
+        </widget>
        </item>
        <item row="4" column="0">
         <widget class="QLabel" name="ba1_quad5_strength_label">
@@ -325,7 +386,11 @@
         </widget>
        </item>
        <item row="4" column="1">
-        <widget class="QLineEdit" name="ba1_quad5_strength_line_edit"/>
+        <widget class="QLineEdit" name="ba1_quad5_strength_line_edit">
+         <property name="placeholderText">
+          <string>-3.5</string>
+         </property>
+        </widget>
        </item>
        <item row="5" column="0">
         <widget class="QLabel" name="ba1_quad6_strength_label">
@@ -335,7 +400,11 @@
         </widget>
        </item>
        <item row="5" column="1">
-        <widget class="QLineEdit" name="ba1_quad6_strength_line_edit"/>
+        <widget class="QLineEdit" name="ba1_quad6_strength_line_edit">
+         <property name="placeholderText">
+          <string>-3.5</string>
+         </property>
+        </widget>
        </item>
        <item row="6" column="0">
         <widget class="QLabel" name="ba1_quad7_strength_label">
@@ -345,14 +414,22 @@
         </widget>
        </item>
        <item row="6" column="1">
-        <widget class="QLineEdit" name="ba1_quad7_strength_line_edit"/>
+        <widget class="QLineEdit" name="ba1_quad7_strength_line_edit">
+         <property name="placeholderText">
+          <string>2.5</string>
+         </property>
+        </widget>
        </item>
       </layout>
      </item>
      <item row="3" column="0">
       <layout class="QFormLayout" name="c2v_quads_layout">
        <item row="0" column="1">
-        <widget class="QLineEdit" name="c2v_quad1_strength_line_edit"/>
+        <widget class="QLineEdit" name="c2v_quad1_strength_line_edit">
+         <property name="placeholderText">
+          <string>54.756</string>
+         </property>
+        </widget>
        </item>
        <item row="1" column="0">
         <widget class="QLabel" name="c2v_quad2_strength_label">
@@ -362,7 +439,11 @@
         </widget>
        </item>
        <item row="1" column="1">
-        <widget class="QLineEdit" name="c2v_quad2_strength_line_edit"/>
+        <widget class="QLineEdit" name="c2v_quad2_strength_line_edit">
+         <property name="placeholderText">
+          <string>-46.099</string>
+         </property>
+        </widget>
        </item>
        <item row="2" column="0">
         <widget class="QLabel" name="c2v_quad3_strength_label">
@@ -372,7 +453,11 @@
         </widget>
        </item>
        <item row="2" column="1">
-        <widget class="QLineEdit" name="c2v_quad3_strength_line_edit"/>
+        <widget class="QLineEdit" name="c2v_quad3_strength_line_edit">
+         <property name="placeholderText">
+          <string>55.974</string>
+         </property>
+        </widget>
        </item>
        <item row="0" column="0">
         <widget class="QLabel" name="c2v_quad1_strength_label">
@@ -470,12 +555,18 @@
          <property name="inputMethodHints">
           <set>Qt::ImhDigitsOnly</set>
          </property>
+         <property name="placeholderText">
+          <string>3.012</string>
+         </property>
         </widget>
        </item>
        <item row="1" column="1">
         <widget class="QLineEdit" name="s02_quad2_strength_line_edit">
          <property name="inputMethodHints">
           <set>Qt::ImhDigitsOnly</set>
+         </property>
+         <property name="placeholderText">
+          <string>-4.719</string>
          </property>
         </widget>
        </item>
@@ -491,6 +582,9 @@
          <property name="inputMethodHints">
           <set>Qt::ImhDigitsOnly</set>
          </property>
+         <property name="placeholderText">
+          <string>-4.07</string>
+         </property>
         </widget>
        </item>
        <item row="3" column="0">
@@ -504,6 +598,9 @@
         <widget class="QLineEdit" name="s02_quad4_strength_line_edit">
          <property name="inputMethodHints">
           <set>Qt::ImhDigitsOnly</set>
+         </property>
+         <property name="placeholderText">
+          <string>13.316</string>
          </property>
         </widget>
        </item>
@@ -539,9 +636,6 @@
          </property>
         </widget>
        </item>
-       <item row="0" column="1">
-        <widget class="QLineEdit" name="lineEdit_6"/>
-       </item>
        <item row="1" column="0">
         <widget class="QLabel" name="vela_quad2_strength_label">
          <property name="text">
@@ -550,7 +644,11 @@
         </widget>
        </item>
        <item row="1" column="1">
-        <widget class="QLineEdit" name="lineEdit_13"/>
+        <widget class="QLineEdit" name="lineEdit_13">
+         <property name="placeholderText">
+          <string>-18.492</string>
+         </property>
+        </widget>
        </item>
        <item row="2" column="0">
         <widget class="QLabel" name="vela_quad3_strength_label">
@@ -560,7 +658,11 @@
         </widget>
        </item>
        <item row="2" column="1">
-        <widget class="QLineEdit" name="lineEdit_14"/>
+        <widget class="QLineEdit" name="lineEdit_14">
+         <property name="placeholderText">
+          <string>5.267</string>
+         </property>
+        </widget>
        </item>
        <item row="3" column="0">
         <widget class="QLabel" name="vela_quad4_strength_label">
@@ -570,7 +672,11 @@
         </widget>
        </item>
        <item row="3" column="1">
-        <widget class="QLineEdit" name="lineEdit_15"/>
+        <widget class="QLineEdit" name="lineEdit_15">
+         <property name="placeholderText">
+          <string>-5.527</string>
+         </property>
+        </widget>
        </item>
        <item row="4" column="0">
         <widget class="QLabel" name="vela_quad5_strength_label">
@@ -580,7 +686,11 @@
         </widget>
        </item>
        <item row="4" column="1">
-        <widget class="QLineEdit" name="lineEdit_16"/>
+        <widget class="QLineEdit" name="lineEdit_16">
+         <property name="placeholderText">
+          <string>6.721</string>
+         </property>
+        </widget>
        </item>
        <item row="5" column="0">
         <widget class="QLabel" name="vela_quad6_strength_label">
@@ -590,7 +700,18 @@
         </widget>
        </item>
        <item row="5" column="1">
-        <widget class="QLineEdit" name="lineEdit_17"/>
+        <widget class="QLineEdit" name="lineEdit_17">
+         <property name="placeholderText">
+          <string>8.891</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="1">
+        <widget class="QLineEdit" name="lineEdit_6">
+         <property name="placeholderText">
+          <string>20.743</string>
+         </property>
+        </widget>
        </item>
       </layout>
      </item>
