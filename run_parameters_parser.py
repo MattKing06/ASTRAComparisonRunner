@@ -21,6 +21,6 @@ class ParameterParser:
         print parameters
 
 
-if __name__ == '__main__':
-    parser = ParameterParser()
-    parser.parse_parameter_input_file()
+# if __name__ == '__main__':
+#     parser = ParameterParser()
+#     parser.parse_parameter_input_file()

@@ -1,6 +1,7 @@
 import sys
 from PyQt4 import QtGui
 from PyQt4 import QtCore
+from PyQt4 import Qt
 import astra_comparison_data as data
 import astra_comparison_ui as ui
 
@@ -55,7 +56,10 @@ class AstraComparisonController(QtGui.QMainWindow):
                 self.data.set_parameters(object_name, line_edit_text)
             else:
                 print 'UNACCEPTABLE INPUT FOR:', object_name, "FIELD. "
-
+                palette = QtGui.QPalette()
+                palette.setColor(QtGui.QPalette.Base, QtCore.Qt.red)
+                line_edit.setPalette(palette)
+                
     def collect_check_box_state(self, check_box_list):
         for check_box in check_box_list:
             object_name = str(check_box.objectName()).replace('_check_box', '')
