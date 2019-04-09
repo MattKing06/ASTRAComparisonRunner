@@ -6,7 +6,7 @@ class AstraComparisonData:
     def __init__(self):
         self.parameters = OrderedDict([('astra_run_number', ''), ('macro_particle', ''), ('laser_pulse_length', ''),
                                        ('spot_size', ''), ('charge', ''), ('gun_gradient', ''), ('gun_phase', ''),
-                                       ('linac_1_gradient', ''), ('linac1_phase', ''),
+                                       ('linac1_gradient', ''), ('linac1_phase', ''),
                                        ('bucking_coil_and_sol_strength', ''), ('linac1_sol1_strength', ''),
                                        ('linac1_sol2_strength', ''), ('end_of_line', ''),
                                        ('injector_space_charge', 'T'), ('s02_quad1_strength', ''),

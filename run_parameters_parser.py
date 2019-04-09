@@ -1,26 +1,22 @@
-import astra_comparison_data
+import yaml
+from collections import OrderedDict
 
 
-class ParameterParser:
-
-    def __init__(self):
-        self.data = astra_comparison_data.AstraComparisonData()
-        self.parameters = self.data.get_parameters()
-        self.input_file_name = 'runs_made.txt'
-
-    def parse_parameter_input_file(self):
-        parameters = []
-        run_file = open(self.input_file_name, 'r')
-        param_line_next = False
-        for line in run_file:
-            if param_line_next:
-                parameters = line.split(' ')
-                print parameters
-            if 'run' in line:
-                param_line_next = True
-        print parameters
+def parse_parameter_input_file(filename):
+    with open(filename, 'r') as stream:
+        yaml_parameter_dict = yaml.safe_load(stream)
+        return yaml_parameter_dict
 
 
-# if __name__ == '__main__':
-#     parser = ParameterParser()
-#     parser.parse_parameter_input_file()
+def write_parameter_output_file(filename, parameter_dict):
+    # This representer tells pyYaml to treat an OrderedDict as it would a regular dict.
+    yaml.add_representer(OrderedDict, yaml.representer.SafeRepresenter.represent_dict)
+    with open(filename, 'w') as output_file:
+        # default flow-style = FALSE allows us to write our python dict out
+        # in the key-value mapping that is standard in YAML. If this is set
+        # to true; the output looks more like JSON, so best to leave it.
+        yaml.dump(parameter_dict, output_file, default_flow_style=False)
+        # currently the values that are output for each key will be surrounding with ''
+        # which does not matter for this purpose as everything gets put into a string
+        # format anyway. It may just introduce inconsistencies between hand-written and
+        # computer-generated YAML files, but we can deal with that when a problem arises.

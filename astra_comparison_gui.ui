@@ -36,7 +36,7 @@
          </widget>
         </item>
         <item row="0" column="1">
-         <widget class="QLineEdit" name="linac_1_gradient_line_edit">
+         <widget class="QLineEdit" name="linac1_gradient_line_edit">
           <property name="mouseTracking">
            <bool>false</bool>
           </property>
@@ -350,6 +350,199 @@
     </item>
     <item row="0" column="1">
      <layout class="QGridLayout" name="magnet_quad_strength_layout">
+      <item row="1" column="0">
+       <layout class="QFormLayout" name="s02_quads_layout">
+        <item row="0" column="0">
+         <widget class="QLabel" name="s02_quad1_strength_label">
+          <property name="text">
+           <string>QUAD1 Strength (k)</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="1">
+         <widget class="QLineEdit" name="s02_quad1_strength_line_edit">
+          <property name="mouseTracking">
+           <bool>false</bool>
+          </property>
+          <property name="contextMenuPolicy">
+           <enum>Qt::DefaultContextMenu</enum>
+          </property>
+          <property name="inputMethodHints">
+           <set>Qt::ImhDigitsOnly</set>
+          </property>
+          <property name="placeholderText">
+           <string>3.012</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="1">
+         <widget class="QLineEdit" name="s02_quad2_strength_line_edit">
+          <property name="mouseTracking">
+           <bool>false</bool>
+          </property>
+          <property name="inputMethodHints">
+           <set>Qt::ImhDigitsOnly</set>
+          </property>
+          <property name="placeholderText">
+           <string>-4.719</string>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="0">
+         <widget class="QLabel" name="s02_quad3_strength_label">
+          <property name="text">
+           <string>QUAD3 Strength (k)</string>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="1">
+         <widget class="QLineEdit" name="s02_quad3_strength_line_edit">
+          <property name="mouseTracking">
+           <bool>true</bool>
+          </property>
+          <property name="inputMethodHints">
+           <set>Qt::ImhDigitsOnly</set>
+          </property>
+          <property name="placeholderText">
+           <string>-4.07</string>
+          </property>
+         </widget>
+        </item>
+        <item row="3" column="0">
+         <widget class="QLabel" name="s02_quad4_strength_label">
+          <property name="text">
+           <string>QUAD4 Strength (k)</string>
+          </property>
+         </widget>
+        </item>
+        <item row="3" column="1">
+         <widget class="QLineEdit" name="s02_quad4_strength_line_edit">
+          <property name="mouseTracking">
+           <bool>false</bool>
+          </property>
+          <property name="inputMethodHints">
+           <set>Qt::ImhDigitsOnly</set>
+          </property>
+          <property name="placeholderText">
+           <string>13.316</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="0">
+         <widget class="QLabel" name="s02_quad2_strength_label">
+          <property name="text">
+           <string>QUAD2 Strength (k)</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item row="1" column="1">
+       <layout class="QFormLayout" name="vela_quads_layout">
+        <item row="0" column="0">
+         <widget class="QLabel" name="vela_quad1_strength_label">
+          <property name="text">
+           <string>QUAD1 Strength (k)</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="0">
+         <widget class="QLabel" name="vela_quad2_strength_label">
+          <property name="text">
+           <string>QUAD2 Strength (k)</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="1">
+         <widget class="QLineEdit" name="vela_quad2_strength_line_edit">
+          <property name="mouseTracking">
+           <bool>false</bool>
+          </property>
+          <property name="placeholderText">
+           <string>-18.492</string>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="0">
+         <widget class="QLabel" name="vela_quad3_strength_label">
+          <property name="text">
+           <string>QUAD3 Strength (k)</string>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="1">
+         <widget class="QLineEdit" name="vela_quad3_strength_line_edit">
+          <property name="mouseTracking">
+           <bool>false</bool>
+          </property>
+          <property name="placeholderText">
+           <string>5.267</string>
+          </property>
+         </widget>
+        </item>
+        <item row="3" column="0">
+         <widget class="QLabel" name="vela_quad4_strength_label">
+          <property name="text">
+           <string>QUAD4 Strength (k)</string>
+          </property>
+         </widget>
+        </item>
+        <item row="3" column="1">
+         <widget class="QLineEdit" name="vela_quad4_strength_line_edit">
+          <property name="mouseTracking">
+           <bool>false</bool>
+          </property>
+          <property name="placeholderText">
+           <string>-5.527</string>
+          </property>
+         </widget>
+        </item>
+        <item row="4" column="0">
+         <widget class="QLabel" name="vela_quad5_strength_label">
+          <property name="text">
+           <string>QUAD5 Strength (k)</string>
+          </property>
+         </widget>
+        </item>
+        <item row="4" column="1">
+         <widget class="QLineEdit" name="vela_quad5_strength_line_edit">
+          <property name="mouseTracking">
+           <bool>false</bool>
+          </property>
+          <property name="placeholderText">
+           <string>6.721</string>
+          </property>
+         </widget>
+        </item>
+        <item row="5" column="0">
+         <widget class="QLabel" name="vela_quad6_strength_label">
+          <property name="text">
+           <string>QUAD6 Strength (k)</string>
+          </property>
+         </widget>
+        </item>
+        <item row="5" column="1">
+         <widget class="QLineEdit" name="vela_quad6_strength_line_edit">
+          <property name="mouseTracking">
+           <bool>false</bool>
+          </property>
+          <property name="placeholderText">
+           <string>8.891</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="1">
+         <widget class="QLineEdit" name="vela_quad1_strength_line_edit">
+          <property name="mouseTracking">
+           <bool>false</bool>
+          </property>
+          <property name="placeholderText">
+           <string>20.743</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
       <item row="3" column="1">
        <layout class="QFormLayout" name="ba1_quads_layout">
         <item row="0" column="0">
@@ -473,6 +666,48 @@
         </item>
        </layout>
       </item>
+      <item row="2" column="1">
+       <widget class="QLabel" name="label_3">
+        <property name="font">
+         <font>
+          <pointsize>11</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>BA1</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QLabel" name="label_4">
+        <property name="font">
+         <font>
+          <pointsize>11</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>VELA</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="0">
+       <widget class="QLabel" name="label">
+        <property name="font">
+         <font>
+          <pointsize>11</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>S02</string>
+        </property>
+       </widget>
+      </item>
       <item row="3" column="0">
        <layout class="QFormLayout" name="c2v_quads_layout">
         <item row="0" column="1">
@@ -528,8 +763,8 @@
         </item>
        </layout>
       </item>
-      <item row="2" column="1">
-       <widget class="QLabel" name="label_3">
+      <item row="2" column="0">
+       <widget class="QLabel" name="label_2">
         <property name="font">
          <font>
           <pointsize>11</pointsize>
@@ -538,21 +773,7 @@
          </font>
         </property>
         <property name="text">
-         <string>BA1</string>
-        </property>
-       </widget>
-      </item>
-      <item row="0" column="0">
-       <widget class="QLabel" name="label">
-        <property name="font">
-         <font>
-          <pointsize>11</pointsize>
-          <weight>75</weight>
-          <bold>true</bold>
-         </font>
-        </property>
-        <property name="text">
-         <string>S02</string>
+         <string>C2V</string>
         </property>
        </widget>
       </item>
@@ -581,227 +802,6 @@
         </item>
        </layout>
       </item>
-      <item row="0" column="1">
-       <widget class="QLabel" name="label_4">
-        <property name="font">
-         <font>
-          <pointsize>11</pointsize>
-          <weight>75</weight>
-          <bold>true</bold>
-         </font>
-        </property>
-        <property name="text">
-         <string>VELA</string>
-        </property>
-       </widget>
-      </item>
-      <item row="1" column="0">
-       <layout class="QFormLayout" name="s02_quads_layout">
-        <item row="0" column="0">
-         <widget class="QLabel" name="s02_quad1_strength_label">
-          <property name="text">
-           <string>QUAD1 Strength (k)</string>
-          </property>
-         </widget>
-        </item>
-        <item row="0" column="1">
-         <widget class="QLineEdit" name="s02_quad1_strength_line_edit">
-          <property name="mouseTracking">
-           <bool>false</bool>
-          </property>
-          <property name="contextMenuPolicy">
-           <enum>Qt::DefaultContextMenu</enum>
-          </property>
-          <property name="inputMethodHints">
-           <set>Qt::ImhDigitsOnly</set>
-          </property>
-          <property name="placeholderText">
-           <string>3.012</string>
-          </property>
-         </widget>
-        </item>
-        <item row="1" column="1">
-         <widget class="QLineEdit" name="s02_quad2_strength_line_edit">
-          <property name="mouseTracking">
-           <bool>false</bool>
-          </property>
-          <property name="inputMethodHints">
-           <set>Qt::ImhDigitsOnly</set>
-          </property>
-          <property name="placeholderText">
-           <string>-4.719</string>
-          </property>
-         </widget>
-        </item>
-        <item row="2" column="0">
-         <widget class="QLabel" name="s02_quad3_strength_label">
-          <property name="text">
-           <string>QUAD3 Strength (k)</string>
-          </property>
-         </widget>
-        </item>
-        <item row="2" column="1">
-         <widget class="QLineEdit" name="s02_quad3_strength_line_edit">
-          <property name="mouseTracking">
-           <bool>true</bool>
-          </property>
-          <property name="inputMethodHints">
-           <set>Qt::ImhDigitsOnly</set>
-          </property>
-          <property name="placeholderText">
-           <string>-4.07</string>
-          </property>
-         </widget>
-        </item>
-        <item row="3" column="0">
-         <widget class="QLabel" name="s02_quad4_strength_label">
-          <property name="text">
-           <string>QUAD4 Strength (k)</string>
-          </property>
-         </widget>
-        </item>
-        <item row="3" column="1">
-         <widget class="QLineEdit" name="s02_quad4_strength_line_edit">
-          <property name="mouseTracking">
-           <bool>false</bool>
-          </property>
-          <property name="inputMethodHints">
-           <set>Qt::ImhDigitsOnly</set>
-          </property>
-          <property name="placeholderText">
-           <string>13.316</string>
-          </property>
-         </widget>
-        </item>
-        <item row="1" column="0">
-         <widget class="QLabel" name="s02_quad2_strength_label">
-          <property name="text">
-           <string>QUAD2 Strength (k)</string>
-          </property>
-         </widget>
-        </item>
-       </layout>
-      </item>
-      <item row="2" column="0">
-       <widget class="QLabel" name="label_2">
-        <property name="font">
-         <font>
-          <pointsize>11</pointsize>
-          <weight>75</weight>
-          <bold>true</bold>
-         </font>
-        </property>
-        <property name="text">
-         <string>C2V</string>
-        </property>
-       </widget>
-      </item>
-      <item row="1" column="1">
-       <layout class="QFormLayout" name="vela_quads_layout">
-        <item row="0" column="0">
-         <widget class="QLabel" name="vela_quad1_strength_label">
-          <property name="text">
-           <string>QUAD1 Strength (k)</string>
-          </property>
-         </widget>
-        </item>
-        <item row="1" column="0">
-         <widget class="QLabel" name="vela_quad2_strength_label">
-          <property name="text">
-           <string>QUAD2 Strength (k)</string>
-          </property>
-         </widget>
-        </item>
-        <item row="1" column="1">
-         <widget class="QLineEdit" name="vela_quad2_strength_line_edit">
-          <property name="mouseTracking">
-           <bool>false</bool>
-          </property>
-          <property name="placeholderText">
-           <string>-18.492</string>
-          </property>
-         </widget>
-        </item>
-        <item row="2" column="0">
-         <widget class="QLabel" name="vela_quad3_strength_label">
-          <property name="text">
-           <string>QUAD3 Strength (k)</string>
-          </property>
-         </widget>
-        </item>
-        <item row="2" column="1">
-         <widget class="QLineEdit" name="vela_quad3_strength_line_edit">
-          <property name="mouseTracking">
-           <bool>false</bool>
-          </property>
-          <property name="placeholderText">
-           <string>5.267</string>
-          </property>
-         </widget>
-        </item>
-        <item row="3" column="0">
-         <widget class="QLabel" name="vela_quad4_strength_label">
-          <property name="text">
-           <string>QUAD4 Strength (k)</string>
-          </property>
-         </widget>
-        </item>
-        <item row="3" column="1">
-         <widget class="QLineEdit" name="vela_quad4_strength_line_edit">
-          <property name="mouseTracking">
-           <bool>false</bool>
-          </property>
-          <property name="placeholderText">
-           <string>-5.527</string>
-          </property>
-         </widget>
-        </item>
-        <item row="4" column="0">
-         <widget class="QLabel" name="vela_quad5_strength_label">
-          <property name="text">
-           <string>QUAD5 Strength (k)</string>
-          </property>
-         </widget>
-        </item>
-        <item row="4" column="1">
-         <widget class="QLineEdit" name="vela_quad5_strength_line_edit">
-          <property name="mouseTracking">
-           <bool>false</bool>
-          </property>
-          <property name="placeholderText">
-           <string>6.721</string>
-          </property>
-         </widget>
-        </item>
-        <item row="5" column="0">
-         <widget class="QLabel" name="vela_quad6_strength_label">
-          <property name="text">
-           <string>QUAD6 Strength (k)</string>
-          </property>
-         </widget>
-        </item>
-        <item row="5" column="1">
-         <widget class="QLineEdit" name="vela_quad6_strength_line_edit">
-          <property name="mouseTracking">
-           <bool>false</bool>
-          </property>
-          <property name="placeholderText">
-           <string>8.891</string>
-          </property>
-         </widget>
-        </item>
-        <item row="0" column="1">
-         <widget class="QLineEdit" name="vela_quad1_strength_line_edit">
-          <property name="mouseTracking">
-           <bool>false</bool>
-          </property>
-          <property name="placeholderText">
-           <string>20.743</string>
-          </property>
-         </widget>
-        </item>
-       </layout>
-      </item>
      </layout>
     </item>
    </layout>
@@ -815,8 +815,26 @@
      <height>21</height>
     </rect>
    </property>
+   <widget class="QMenu" name="menuFile">
+    <property name="title">
+     <string>File</string>
+    </property>
+    <addaction name="actionImport_YAML"/>
+    <addaction name="actionExport_YAML"/>
+   </widget>
+   <addaction name="menuFile"/>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionImport_YAML">
+   <property name="text">
+    <string>Import YAML</string>
+   </property>
+  </action>
+  <action name="actionExport_YAML">
+   <property name="text">
+    <string>Export YAML</string>
+   </property>
+  </action>
  </widget>
  <resources/>
  <connections/>
