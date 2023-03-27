@@ -1,12 +1,10 @@
 on:
   push:
-    branches:
-    - main
     paths:
     - '*.py'
 jobs:
   flake8_py3:
-    runs-on: self-hosted
+    runs-on: rm-sandbox
     steps:
       - name: Setup Python
         uses: actions/setup-python@v1
