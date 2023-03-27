@@ -4,7 +4,7 @@ on:
     - '*.py'
 jobs:
   flake8_py3:
-    runs-on: rm-sandbox
+    runs-on: self-hosted
     steps:
       - name: Setup Python
         uses: actions/setup-python@v1
