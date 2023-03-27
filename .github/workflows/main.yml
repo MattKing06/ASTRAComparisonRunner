@@ -1,7 +1,6 @@
 on:
   push:
-    paths:
-    - '*.py'
+
 jobs:
   flake8_py3:
     runs-on: self-hosted
@@ -9,7 +8,7 @@ jobs:
       - name: Setup Python
         uses: actions/setup-python@v1
         with:
-          python-version: 3.6
+          python-version: 3.8
           architecture: x64
       - name: Checkout ASTRAComparisonRunner
         uses: actions/checkout@master
